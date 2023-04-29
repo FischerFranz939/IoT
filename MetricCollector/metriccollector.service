@@ -1,0 +1,17 @@
+[Unit]
+Description = MetricCollector
+After = network.target
+
+[Service]
+Type = simple
+WorkingDirectory=/home/pi/MetricCollector/
+ExecStart=/usr/bin/python /home/pi/MetricCollector/MetricCollector.py
+
+User = pi
+Restart = on-failure
+SyslogIdentifier = MetricCollector
+RestartSec = 5
+TimeoutStartSec = infinity
+
+[Install]
+WantedBy = multi-user.target

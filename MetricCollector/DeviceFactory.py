@@ -8,7 +8,7 @@ from ShellyPlusPlugs import ShellyPlusPlugs
 #-------------------------------------------------------------------------------
 device_ids = dict()
 #          <------------ name ------------>    <--------- url ------->
-device_ids[Const.SHELLY_SWITCH_25  + "-001"] = "http://192.168.128.20"
+#device_ids[Const.SHELLY_SWITCH_25  + "-001"] = "http://192.168.128.20"
 device_ids[Const.SHELLY_PLUS_PLUGS + "-001"] = "http://192.168.128.43"
 
 

@@ -21,4 +21,4 @@ INFLUXDB_NAME = "telegraf"
 # Log Agent
 #-------------------------------------------------------------------------------
 REQUEST_TIMEOUT = 5
-LOOP_SLEEP = 10
+LOOP_SLEEP = 30
